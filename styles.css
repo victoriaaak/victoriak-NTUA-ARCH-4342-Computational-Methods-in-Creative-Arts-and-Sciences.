@@ -1,0 +1,33 @@
+#container{
+display: flex;
+justify-content: space-between;
+}
+
+#container1{
+	display: flex;
+	justify-content: space-between;
+}
+#picture {
+	width: 66,6vw;
+	height: 300px;
+	background: beige;
+}
+#description{
+	width: 30vw;
+	height: 300px;
+	background: beige;
+	float: right;
+}
+#ass1p{
+	width: 50vw;
+	height: 50vw;
+	background: beige;
+	align-items: center;
+}
+#image1{
+	width: 400px;
+	height: 400px;
+
+}
+
+
