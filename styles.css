@@ -15,7 +15,9 @@ flex-wrap: wrap;
  	font-style: normal;
  	margin: auto;
 }
-
+#1{
+	flex: 1;
+}
 #picture {
 	flex: 1;
 	background: beige;
@@ -26,11 +28,11 @@ flex-wrap: wrap;
 #assignment1{
 	display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 200px;
 }
 
 #ass1p{
-	flex: 1 1 300px; /* grow, shrink, minimum 300px */
+	flex: 1 1 100px; 
     background: lightblue;
     padding: 20px;
 }
@@ -38,35 +40,32 @@ flex-wrap: wrap;
 
 
 #ass1t{
-	flex: 1 1 300px; /* grow, shrink, minimum 300px */
+	flex: 1 1 100px; 
     background: lightblue;
     padding: 20px;
 }
 
 
 #assignment2{
-	display: flex;
-	justify-content: space-between;	
+display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
 }
 
 #ass2p{
-	width: 500px;
-	height: 300px;
-	float: left;
-	text-align: center;
+	flex: 1 1 300px; 
+    background: lightblue;
+    padding: 20px;
 
 }
 
 #ass2t{
-	width: 500px;
-	height: 300px;
-	background: beige;
-	vertical-align: middle;
-	text-align: center;
-	margin: auto;
+	flex: 1 1 300px; 
+    background: lightblue;
+    padding: 20px;
 }
 #image2{
-	flex: 1 1 300px; /* grow, shrink, minimum 300px */
+	flex: 1 1 300px; 
 }
 h1{
 	font-weight: normal;
