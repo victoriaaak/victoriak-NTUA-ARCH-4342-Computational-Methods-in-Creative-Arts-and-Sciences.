@@ -1,72 +1,91 @@
 #headline{
 display: flex;
-justify-content: space-between;
 flex-wrap: wrap;
+gap: 100px;
 }
 
 #description{
 	vertical-align: middle;
 	text-align: center;
-	flex: 1;
+	flex: 1 1 10px;
 	float: right;
  	font-family: "Quicksand", sans-serif;
  	font-weight: 100px;
  	font-size: 20px;
  	font-style: normal;
  	margin: auto;
+ 	background: lightblue;
 }
 #1{
-	flex: 1;
-}
-#picture {
-	flex: 1;
-	background: beige;
+	flex: 1 1 10px;
 	margin: auto;
 }
 
 
+
 #assignment1{
 	display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
 #ass1p{
-	flex: 1 1 100px; 
-    background: lightblue;
-    padding: 20px;
+ 	float:left;
+ 	flex: 1 1 20px;
+  align-items: center;
 }
 
-
-
+#image1{
+	align-items: center;
+	width: 400px;
+	height: 400px;
+}
 #ass1t{
-	flex: 1 1 100px; 
-    background: lightblue;
-    padding: 20px;
+	float: right;
+	flex: 1 1 20px;
+	background: lightblue;
+	font-family: "Quicksand", sans-serif;
+ 	font-weight: 100px;
+ 	font-size: 20px;
+ 	font-style: normal;
+ 	margin: auto;
+ 	vertical-align: middle;
+	text-align: center;
 }
 
 
 #assignment2{
-display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
 }
 
 #ass2p{
-	flex: 1 1 300px; 
-    background: lightblue;
-    padding: 20px;
+	float:left;
+ 	flex: 1 1 20px;
+  align-items: center;
 
 }
 
 #ass2t{
-	flex: 1 1 300px; 
-    background: lightblue;
-    padding: 20px;
+	float: right;
+	flex: 1 1 20px;
+	background: lightblue;
+	font-family: "Quicksand", sans-serif;
+ 	font-weight: 100px;
+ 	font-size: 20px;
+ 	font-style: normal;
+ 	margin: auto;
+ 	vertical-align: middle;
+	text-align: center;
 }
-#image2{
-	flex: 1 1 300px; 
+#3{
+	align-items: center;
+	width: 200px;
+	height: 200px;
 }
+
+
 h1{
 	font-weight: normal;
  	font-size: 40px;

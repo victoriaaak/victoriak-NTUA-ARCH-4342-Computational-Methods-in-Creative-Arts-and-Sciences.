@@ -1,7 +1,6 @@
 //Viktoria Kalabali
 //I slowed the pace of the creation of the circles with frameRate
 function setup() {
- canvas.parent('ass1p') 
  let canvas = createCanvas(400, 400);
   background(100);
   frameRate(5);
