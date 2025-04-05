@@ -1,26 +1,23 @@
 //Viktoria Kalabali
 //I slowed the pace of the creation of the circles with frameRate
-function setup() {
- let canvas = createCanvas(400, 400);
-  background(100);
-  frameRate(5);
+
+const sketch = (p) => {
+
+p.setup = () => {
+ let canvas = p.createCanvas(400, 400);
+  p.background(100);
+  p.frameRate(5);
+  canvas.parent('ass1p')
 
 }
 //I set random x,y for the circles
-function draw() {
-let x=random(0,400);
-let y=random(0,400);
+p.draw = () =>{
+let x=p.random(0,400);
+let y=p.random(0,400);
 //i removed the filling of the circles
-noFill();
+p.noFill();
 // i set random grey colors for the circles including white and black
-stroke(random(0,255))
- circle(x,y,100);
+p.stroke(random(0,255))
+ p.circle(x,y,100);
 }
-//Function to stop the programm
-function doubleClicked(){
-  noLoop()
-}
-//Function to restart it 
-function mousePressed(){
-  loop()
-}
+new p5(sketch);
