@@ -1,25 +1,13 @@
-#container{
+#headline{
 display: flex;
 justify-content: space-between;
-
 }
 
-#container1{
-	display: flex;
-	justify-content: space-between;
-}
-#picture {
-	width: 66,6vw;
-	height: 28,5vw;
-	background: beige;
-	margin: auto;
-
-}
 #description{
 	vertical-align: middle;
 	text-align: center;
 	width: 40vw;
-	height: 28,5vw;
+	height: 28,5vh;
 	float: right;
  	font-family: "Quicksand", sans-serif;
  	font-weight: 100px;
@@ -27,49 +15,93 @@ justify-content: space-between;
  	font-style: normal;
  	margin: auto;
 }
-   
+
+#picture {
+	width: 66,6vw;
+	height: 28,5vh;
+	background: beige;
+	margin: auto;
+}
+
+
+#assignment1{
+	display: flex;
+	justify-content: space-between;
+}
 
 #ass1p{
-	width: 40vw;
-	height: 30vw;
+	width: 500px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+#image1{
+	width: 300px;
+	height: 300px;
+}
+
+#ass1t{
+	float: right;
+	width: 500px;
+	height: 300px;
 	background: beige;
+}
+
+
+#assignment2{
+	display: flex;
+	justify-content: space-between;	
+}
+
+#ass2p{
+	width: 500px;
+	height: 300px;
 	float: left;
 	text-align: center;
 
 }
-#image1{
+
+#ass2t{
+	width: 500px;
+	height: 300px;
+	background: beige;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+}
+#image2{
 	width: 300px;
 	height: 300px;
-
-}
-#ass1t{
-	float: right;
-	width: 30vw;
-	height: 30nw;
-	background: beige;
 }
 h1{
-	font-family: "Quicksand",sans-serif;
-	font-weight: normal;
-	font-size: 50px;
-}
-p{
-font-family: "Quicksand", sans-serif;
-font-weight:normal;
-}
-
-
-h2{
-	
-  font-family: "Quicksand",sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-
-
-}
-h3{
 	font-weight: normal;
  	font-size: 40px;
  	font-style: normal;
  	margin: auto;
+}
+
+h2{
+	font-family: "Quicksand",sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+}
+
+
+h3{
+	
+  font-family: "Quicksand",sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h4{
+	font-family: "Quicksand",sans-serif;
+ 	font-weight: normal;
+ 	font-size: 40px;
+}
+
+p{
+font-family: "Quicksand", sans-serif;
+font-weight:normal;
 }

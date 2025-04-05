@@ -1,53 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="styles.css">
 
+<head>
+    <!-- nesecerary links to css, scale, google fonts-->
+
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victoria's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+<title>Victoria's Portfolio</title>
 
-
+</head>    
 
 <body>
 
+<!-- library p5.js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 
+<!-- button-->
+<button onclick="document.getElementById('ass1p').scrollIntoView({ behavior: 'smooth' });">
+  Go to ass1p
+</button>
 
 
-<div id="container">
+<div id="headline">
 
     <div id="picture"> 
         <img src="1.png">
     </div>
 
     <div id="description"> 
+        <h1> Hi!! </h1>
 
-
-        
-        <h3> Hi!! </h3>
          My name is Victoria Kalampali. I'm an undergraduate student at ARCH NTUA. This is my personal website for NTUA ARCH 4342 Computational Methods in Creative Arts and Sciences. 
     </div>
 
 </div>
 
-    <h1>My projects</h1>
-    <p>These are all the assignments that i have done in computer science💻</p>
-    <h2>-Assignment 01:</h2>
+<h2>My projects</h2>
 
-    <div id="container1">
+<p>These are all the assignments that i have done in computer science💻</p>
+
+<h3>-Assignment 01:</h3>
+
+    <div id="assignment1">
+
             <div id="ass1p">
                 <img id="image1" src="ass3.png">
             </div>
+
             <div id= "ass1t">
             </div>
-</div>
-</body>
+    </div>
 
-        
+ <h4>-Assignment 02:</h4>
+
+    <div id="assignment2">
+
+        <div id="ass2p">
+            <img id="image2" src="2.png">
+        </div> 
+
+        <div id="ass2t">
+            This is an interactive programm that draws random lines that start at the top and end at the bottom. Every line is coloured a random color.
+        </div>
+
+    </div>    
+
+</body>     
 </html>
