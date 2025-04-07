@@ -9,83 +9,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-<title>Victoria's Portfolio</title>
+    <!-- adding the library before the sketch -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 
-</head>    
+    <!-- adding the sketch second -->
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+    <title>Victoria's Portfolio</title>
+
+
+</head>
 
 <body>
 
 
-<div id="headline">
+    <div id="headline">
 
-    <h5>Victoria's Portfolio</h5>
-
-
-    <!-- button-->
-    <button id="ass1button" onclick="document.getElementById('buttons').scrollIntoView({ behavior: 'smooth' });">
-    Assignment 01
-    </button>
-
-<button id="ass2button" onclick="document.getElementById('buttons2').scrollIntoView({ behavior: 'smooth' });">
-    Assignment 02
-    </button>
-</div>
+        <h5>Victoria's Portfolio</h5>
 
 
-    <div id="picture"> 
+        <!-- button-->
+        <button id="ass1button" onclick="document.getElementById('buttons').scrollIntoView({ behavior: 'smooth' });">
+            Assignment 01
+        </button>
+
+        <button id="ass2button" onclick="document.getElementById('buttons2').scrollIntoView({ behavior: 'smooth' });">
+            Assignment 02
+        </button>
+    </div>
+
+
+    <div id="picture">
         <img id="1" src="1.png">
     </div>
 
-    <div id="description"> 
+    <div id="description">
         <h1> Hi!! </h1>
 
-         My name is Victoria Kalampali. I'm an undergraduate student at ARCH NTUA. This is my personal website for NTUA ARCH 4342 Computational Methods in Creative Arts and Sciences. 
+        My name is Victoria Kalampali. I'm an undergraduate student at ARCH NTUA. This is my personal website for NTUA
+        ARCH 4342 Computational Methods in Creative Arts and Sciences.
     </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-<h2>My projects</h2>
 
-<p>These are all the assignments that i have done in computer science💻</p>
+    <h2>My projects</h2>
+
+    <p>These are all the assignments that i have done in computer science💻</p>
 
 
 
-<h3 id="buttons">-Project 1:</h3>
+    <h3 id="buttons">-Project 1:</h3>
 
     <div id="assignment1">
 
-            <div id="ass1p">
-                <a href="https://editor.p5js.org/victoria.kalabali/sketches/B8urBXE-P" target="_blank">
-                    <img id="image1" src="2.png">
-                </a>
+        <div id="ass1p">
+            <!-- <script src="sketch.js"></script> -->
+            <!-- commented out because there is no need to call the sketch here again,you call it using the id="ass1p" -->
 
-            </div>
 
-            <div id= "ass1t">
-              This is a program that i created that generates random circles. The circles are set to be a certain diameter. When the programm starts circles start to be drawn in random places of the canvas. Also, the color of the outline of the circles is set to be random shades of grey (including black and white).
-            </div>
+        </div>
+
+        <div id="ass1t">
+            This is a program that i created that generates random circles. The circles are set to be a certain
+            diameter. When the programm starts circles start to be drawn in random places of the canvas. Also, the color
+            of the outline of the circles is set to be random shades of grey (including black and white).
+        </div>
     </div>
 
 
 
- <h4 id="buttons2">-Project 2:</h4>
+    <h4 id="buttons2">-Project 2:</h4>
 
     <div id="assignment2">
 
-        <div id="ass2p">
-        <a href="https://editor.p5js.org/victoria.kalabali/sketches/R5Kjr1PMz" target="_blank">
-                    <img id="image1" src="ass3.png">
-                </a>
-
-        </div> 
-
-        <div id="ass2t">
-            This is a program that i created that randomly creates lines. The lines start at the top of the canvas and end at the buttom. Also every line that is drawn has a random color.
+      <div id="ass2p">
+            <!-- <script src="sketch.js"></script> -->
+            <!-- commented out because there is no need to call the sketch here again,you call it using the id="ass2p" -->
         </div>
 
-    </div>   
+        <div id="ass2t">
+            This is a program that i created that randomly creates lines. The lines start at the top of the canvas and
+            end at the buttom. Also every line that is drawn has a random color.
+        </div>
 
-</body>     
+    </div>
+
+</body>
+
 </html>
