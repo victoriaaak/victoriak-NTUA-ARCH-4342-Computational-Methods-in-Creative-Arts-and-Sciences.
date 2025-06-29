@@ -165,6 +165,10 @@ h6{
  	vertical-align: middle;
 	text-align: center;
 }
+#Finalproject{
+	display: flex;
+	flex-wrap: wrap;
+}
 h1{
 	text-align: center;
 	font-weight: normal;
@@ -219,6 +223,8 @@ h10{
  	font-weight: normal;
  	font-size: 30px;
 	margin: 20px;	
+	vertical-align: middle;
+	text-align: center;
 }
 h11{
 	font-family: "Quicksand",sans-serif;
@@ -232,6 +238,36 @@ h12{
  	font-size: 30px;
 	margin: 20px;	
 }
+h15{
+	font-family: "Quicksand",sans-serif;
+ 	font-weight: normal;
+ 	font-size: 40px;
+	margin: 30px;	
+}
+h13{
+	font-family: "Quicksand",sans-serif;
+ 	font-weight: normal;
+ 	font-size: 40px;
+	margin: 30px;	
+}
+h14{
+	font-family: "Quicksand", sans-serif;
+ 	font-weight: 100px;
+ 	font-size: 25px;
+ 	font-style: normal;
+ 	margin: 30px;
+ 	vertical-align: middle;
+	text-align: middle;
+}
+h17{
+	font-family: "Quicksand", sans-serif;
+ 	font-weight: 100px;
+ 	font-size: 30px;
+ 	font-style: normal;
+ 	margin: 30px;
+ 	vertical-align: middle;
+	text-align: middle;
+}
 #links{
 	display: flex;
 	flex-wrap: wrap;
@@ -242,4 +278,7 @@ p{
 font-family: "Quicksand", sans-serif;
 font-weight:normal;
 font-size: 20px;
+}
+#photo{
+	margin: 20px;
 }
